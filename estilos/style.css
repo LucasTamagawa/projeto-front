@@ -1,1 +1,99 @@
-{}
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    font-size: 100%;
+    background: white;
+}
+.cabecalho{
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 24px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 19.2px;
+    min-width: 72px;
+    font-weight: 700;
+
+}
+.icone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    left: 77.22%;
+    right: 10.83%;
+    top: 34.74%;
+    bottom: 35.79%;
+
+}
+.destaque{
+    left: 0px;
+
+}
+.destaque figure.destaque-video img{
+    position: absolute;
+}
+.destaque figure.botao img{
+    position: absolute;
+}
+.destaque-video{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+   
+
+}
+.botao{
+    align-items: flex-start;
+    cursor: pointer;
+    display: flex;
+    min-width: 362px;
+    top: 80px;
+    position: absolute;
+    width:100%;
+    height:220%;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.desconto{
+    
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 41px;
+    align-items: center;
+}
+.roupa-4{
+    display: flex;
+    gap: 10px;
+    left: 156px;
+    margin-top:98px; 
+    gap: 24px;
+}
