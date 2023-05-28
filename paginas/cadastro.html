@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+    <head>
+        <meta charset='UTF-8'>
+
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <meta name="author" content="Ewerton José da Silva">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+        <link rel='stylesheet' href='/projeto-front/estilos/cadastro.css'>
+        <link rel='stylesheet' href='../estilos/global.css'>
+        <link rel='stylesheet' href='../estilos/nav.css'> 
+        <link rel='stylesheet' href='../estilos/cadUsuario.css'>
+        <title>Astronic - Criar Conta</title>
+    </head>
+    <body>
+        <header class="cabecalho">
+            <img src="/projeto-front/imagens/Logo_para_Vendedor_ou_Loja_de_Sneakers_Cor_Neutra_Urbano__1_-removebg-preview 2.png" alt="Astronic Logo">
+            <nav class="cabecalho-menu">
+                <a href="/projeto-front/index.html">HOME </a>
+                <a href="/projeto-front/paginas/roupas.html">ROUPAS </a>
+                <a href="#">TÊNIS </a>
+                <a href="#">ACESSÓRIOS </a>
+            </nav>
+            <div class="icones">
+                <img src="/projeto-front/imagens/material-symbols_search.png" alt="Logo pesquisa">
+                <img src="/projeto-front/imagens/Vector.png" href="/projeto-front/paginas/login.html" alt="Logo user">
+                <img src="/projeto-front/imagens/Vector (1).png" alt="Logo favorito">
+                <img src="/projeto-front/imagens/material-symbols_shopping-cart-outline.png" alt="Logo carrinho">
+            </div>
+
+        </header>
+
+        <div class="container">
+            <div>
+                <h2>Criar uma conta</h2>
+            </div>
+            <form id="form" class="form">
+                <div class="form-control" id="valNome">
+                    <label for="username">Nome de usuário</label>
+                    <div class="divInput">
+                        <input
+                            type="text"
+                            id="username"
+                            placeholder="Digite seu nome de usuário..."
+                        />
+                        <!-- <i class="fas fa-exclamation-circle"></i> -->
+                        <span class="material-icons sucesso">
+                            check_circle
+                        </span>
+                        <span class="material-icons erro">
+                            error
+                        </span>
+                        <!-- <i class="fas fa-check-circle"></i> -->
+                    </div>                    
+                    <small id="nome">Insira o nome completo do usuário</small>
+                </div>
+        
+                <div class="form-control" id="valEmail">
+                  <label for="email">Email</label>
+                  <div class="divInput">
+                    <input type="text" id="email" placeholder="Digite seu email.." />
+                    <span class="material-icons sucesso">
+                        check_circle
+                    </span>
+                    <span class="material-icons erro">
+                        error
+                    </span>
+                  </div>                  
+                  <small>Insira o e-mail corretamente!</small>
+                </div>
+        
+                <div class="doisItens">
+                    <div class="form-control" id="valEstado">
+                        <label for="estado">Estado</label>
+                        <div class="divInput">
+                          <select name="selUf" id="estado">
+                            <option selected disabled value="0">Sel. estado</option>
+                            <option value="1">SP</option>
+                            <option value="2">RJ</option>
+                            <option value="3">PR</option>
+                          </select>
+                          <span class="material-icons sucesso">
+                              check_circle
+                          </span>
+                          <span class="material-icons erro">
+                              error
+                          </span>
+                        </div>                  
+                        <small>Campo obrigatório!</small>
+                    </div>
+
+                    <div class="form-control" id="valCidade">
+                        <label for="cidade">Cidade</label>
+                        <div class="divInput">
+                            <select name="selCidade" id="cidade">
+                                <option selected disabled value="0">Selecione a cidade</option>
+                                <option value="1">Tupã</option>
+                                <option value="2">Parapuã</option>
+                                <option value="3">Marília</option>
+                            </select>
+                          <span class="material-icons sucesso">
+                              check_circle
+                          </span>
+                          <span class="material-icons erro">
+                              error
+                          </span>
+                        </div>                  
+                        <small>Selecione a cidade!</small>
+                    </div>
+                </div>
+
+                <div class="form-control" id="valLog">
+                    <label for="logradouro">Logradouro</label>
+                    <div class="divInput">
+                        <input
+                            type="text"
+                            id="logradouro"
+                            placeholder="Digite o endereço..."
+                        />
+                        <!-- <i class="fas fa-exclamation-circle"></i> -->
+                        <span class="material-icons sucesso">
+                            check_circle
+                        </span>
+                        <span class="material-icons erro">
+                            error
+                        </span>
+                        <!-- <i class="fas fa-check-circle"></i> -->
+                    </div>                    
+                    <small>Insira os dados referente ao endereço</small>
+                </div>
+
+                <div class="doisItens">
+                    <div class="form-control" id="valNum">
+                        <label for="num">Número</label>
+                        <div class="divInput">
+                            <input
+                                type="text"
+                                id="num"
+                                placeholder="nº do endereço"
+                            />
+                          <span class="material-icons sucesso">
+                              check_circle
+                          </span>
+                          <span class="material-icons erro">
+                              error
+                          </span>
+                        </div>                  
+                        <small>Campo obrigatório!</small>
+                      </div>
+
+                      <div class="form-control" id="valBairro">
+                        <label for="bairro">Bairro</label>
+                        <div class="divInput">
+                            <input
+                                type="text"
+                                id="bairro"
+                                placeholder="Insira o nome do bairro"
+                            />
+                          <span class="material-icons sucesso">
+                              check_circle
+                          </span>
+                          <span class="material-icons erro">
+                              error
+                          </span>
+                        </div>                  
+                        <small>Selecione a cidade!</small>
+                      </div>
+                </div>
+
+                <div class="doisItens">
+                    <div class="form-control" id="valComp">
+                        <label for="comp">Complemento</label>
+                        <div class="divInput">
+                            <input
+                                type="text"
+                                id="comp"
+                                placeholder="Complemento do endereço"
+                            />
+                          <span class="material-icons sucesso">
+                              check_circle
+                          </span>
+                          <span class="material-icons erro">
+                              error
+                          </span>
+                        </div>                  
+                        <small>-</small>
+                      </div>
+
+                      <div class="form-control" id="valCelular">
+                        <label for="celular">nº celular</label>
+                        <div class="divInput">
+                            <input
+                                type="text"
+                                id="celular"
+                                placeholder="Insira o nº do celular"
+                            />
+                          <span class="material-icons sucesso">
+                              check_circle
+                          </span>
+                          <span class="material-icons erro">
+                              error
+                          </span>
+                        </div>                  
+                        <small>O nº do celular é obrigatório</small>
+                      </div>
+                </div>
+
+                <div class="form-control" id="validaSn1">
+                  <label for="password">Senha</label>
+                  <div class="divInput">
+                    <input
+                        type="password"
+                        id="password"
+                        placeholder="Digite sua senha..."
+                    />
+                    <span class="material-icons sucesso">
+                        check_circle
+                    </span>
+                    <span class="material-icons erro">
+                        error
+                    </span>
+                  </div>                  
+                  <small>A senha precisa ter no mínimo 7 caracteres.</small>
+                </div>
+        
+                <div class="form-control" id="validaSn2">
+                  <label for="password-confirmation">Confirmação de senha</label>
+                  <div class="divInput">
+                    <input
+                        type="password"
+                        id="password-confirmation"
+                        placeholder="Digite sua senha novamente..."
+                    />
+                    <span class="material-icons sucesso">
+                        check_circle
+                    </span>
+                    <span class="material-icons erro">
+                        error
+                    </span>
+                  </div>                  
+                  <small>Confirmação obrigatória, as senhas inseridas devem ser iguais!</small>
+                </div>
+        
+                <button  type="submit" >
+                    Enviar
+                </button>
+            </form>
+        </div>
+
+        <footer class="rodape">
+
+        </footer>
+
+        <script src='../scripts/validaUsu.js'></script>
+        <script src='../scripts/nav.js'></script>
+    </body>
+</html>
