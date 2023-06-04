@@ -1,4 +1,14 @@
-.home, .home * { box-sizing: border-box; }.home {background: var(--branco, #ffffff); width: 1440px; height: 4038px; position: relative; overflow: hidden;}
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    transform: scale(1.4);
+    transform-origin: 0 0;
+  }
+  
+.home, .home * { 
+    box-sizing: border-box; }
+    .home {background: var(--branco, #ffffff); width: 1440px; height: 4038px; position: relative; overflow: hidden;}
  .tenis {position: absolute; inset: 0;}
  .snapinsta-1 {width: 648px; height: 600px; position: absolute; left: 156px;top: 2514px;}
  .item-1 {width: 168px; height: 187px; position: static;}

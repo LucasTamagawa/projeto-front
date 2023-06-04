@@ -1,3 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    transform: scale(1.4);
+    transform-origin: 0 0;
+  }
+  
 .registrar-desktop, .registrar-desktop * { box-sizing: border-box; }.registrar-desktop {background: #ffffff; width: 1440px; height: 1390px; position: relative; overflow: hidden;}
  .astronic {color: var(--primary, #ff33a9); text-align: left; font: var(--textomedionegrito-39, 700 39px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 70px);top: 329px;}
  .group-4 {position: absolute; inset: 0;}
