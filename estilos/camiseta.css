@@ -1,3 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    transform: scale(1.4);
+    transform-origin: 0 0;
+  }
+  
 .roupa-1, .roupa-1 * { box-sizing: border-box; }.roupa-1 {background: #ffffff; width: 1440px; height: 1390px; position: relative; overflow: hidden;}
  .group-30 {position: absolute; inset: 0;}
  .group-2 {width: 168px; height: 241px; position: static;}

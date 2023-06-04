@@ -1,3 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    transform: scale(1.4);
+    transform-origin: 0 0;
+  }
+  
 .login-desktop, .login-desktop * { box-sizing: border-box; }.login-desktop {background: #ffffff; width: 1440px; height: 1390px; position: relative; overflow: hidden;}
  .rectangle-13 {background: var(--cinza-1, #222222); border-radius: 5px; width: 744px; height: 52px; position: absolute; left: 363px;top: 702px;}
  .rectangle-14 {background: var(--cinza-1, #222222); border-radius: 5px; width: 744px; height: 52px; position: absolute; left: 363px;top: 811px;}

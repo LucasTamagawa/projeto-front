@@ -1,3 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    transform: scale(1.4);
+    transform-origin: 0 0;
+  }
+  
 .finalizar-compra-desktop, .finalizar-compra-desktop * { box-sizing: border-box; }.finalizar-compra-desktop {background: #ffffff; width: 1440px; height: 1390px; position: relative; overflow: hidden;}
  .barra-superior {width: 1440px; height: 95px; position: absolute; left: 0px;top: 0px;}
  .barra-superior2 {background: var(--cinza-1, #222222); width: 1440px; height: 95px; position: absolute; left: 0px;top: 0px;}

@@ -1,3 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    transform: scale(1.4);
+    transform-origin: 0 0;
+  }
+  
 .modal-finalizar-compra, .modal-finalizar-compra * { box-sizing: border-box; }.modal-finalizar-compra {border-radius: 20px; width: 840px; height: 670px; position: relative; overflow: hidden;}
  .group-41 {position: absolute; inset: 0;}
  .modal {background: var(--cinza-1, #222222); width: 840px; height: 670px; position: absolute; left: 0px;top: 0px;}
