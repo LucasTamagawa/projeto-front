@@ -1,130 +1,926 @@
 body {
-    margin: 0;
-    padding: 0;
-    border: none;
-    transform: scale(1.35);
-    transform-origin: 0 0;
-  }
-  
-.roupas-desktop, .roupas-desktop * { box-sizing: border-box; }.roupas-desktop {background: #ffffff; width: 1440px; height: 1390px; position: relative; overflow: hidden;}
- .group-3 {position: absolute; inset: 0;}
- .group-1 {width: 168px; height: 241px; position: static;}
- .item-6 {width: 168px; height: 241px; position: static;}
- .rectangle-7 {background: #d9d9d9; width: 168px; height: 241px; position: absolute; left: 348px;top: 229px;}
- .group-2 {width: 168px; height: 241px; position: static;}
- .rectangle-72 {background: #d9d9d9; width: 168px; height: 241px; position: absolute; left: 348px;top: 550px;}
- .group-32 {width: 168px; height: 241px; position: static;}
- .rectangle-73 {background: #d9d9d9; width: 168px; height: 241px; position: absolute; left: 348px;top: 871px;}
- .group-14 {position: absolute; inset: 0;}
- .group-13 {width: 267px; height: 35px; position: static;}
- .filtros {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -300px);top: 180px; width: 96px; height: 35px;}
- .ordernar-por {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -423px);top: 180px; width: 144px; height: 35px;}
- .group-17 {position: absolute; inset: 0;}
- .roupas {color: var(--primary, #ff33a9); text-align: center; font: var(--detalhesnegrito-20, 700 20px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 84px);top: 180px; width: 159px; height: 35px;}
- .group-28 {position: absolute; inset: 0;}
- .group-25 {width: 1128px; height: 299px; position: static;}
- .roupa-1 {width: 168px; height: 299px; position: static;}
- .rectangle-74 {width: 168px; height: 241px; position: absolute; left: 156px;top: 229px;}
- .camiseta-palla-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 551px);top: 490px;}
- .roupa-2 {width: 168px; height: 299px; position: static;}
- .item-7 {width: 168px; height: 241px; position: static;}
- .rectangle-75 {width: 168px; height: 241px; position: absolute; left: 348px;top: 229px;}
- .cal-a-sufgang-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 359px);top: 490px;}
- .roupa-3 {width: 168px; height: 299px; position: static;}
- .item-8 {width: 168px; height: 241px; position: static;}
- .rectangle-76 {width: 168px; height: 241px; position: absolute; left: 540px;top: 229px;}
- .moletom-travis-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 173px);top: 490px;}
- .roupa-4 {width: 168px; height: 296px; position: static;}
- .item-9 {width: 168px; height: 241px; position: static;}
- .rectangle-77 {width: 168px; height: 241px; position: absolute; left: 732px;top: 229px;}
- .corta-vento-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -36px);top: 487px;}
- .roupa-5 {width: 183px; height: 299px; position: static;}
- .item-10 {width: 168px; height: 241px; position: static;}
- .rectangle-78 {width: 168px; height: 241px; position: absolute; left: 924px;top: 229px;}
- .camiseta-oversized-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -196px);top: 490px;}
- .roupa-6 {width: 168px; height: 296px; position: static;}
- .item-11 {width: 168px; height: 241px; position: static;}
- .rectangle-79 {width: 168px; height: 241px; position: absolute; left: 1116px;top: 229px;}
- .bermuda-high-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -412px);top: 487px;}
- .group-26 {width: 1131px; height: 302px; position: static;}
- .roupa-7 {width: 173px; height: 302px; position: static;}
- .roupa-72 {width: 168px; height: 241px; position: static;}
- .rectangle-710 {width: 168px; height: 241px; position: absolute; left: 156px;top: 550px;}
- .moletom-supreme-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 567px);top: 814px;}
- .roupa-8 {width: 188px; height: 302px; position: static;}
- .rectangle-711 {background: linear-gradient(to left, #ffffff, #ffffff); width: 168px; height: 241px; position: absolute; left: 348px;top: 550px;}
- .camiseta-agostinho-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 383px);top: 814px;}
- .roupa-9 {width: 168px; height: 302px; position: static;}
- .rectangle-712 {width: 168px; height: 241px; position: absolute; left: 540px;top: 550px;}
- .camiseta-piet-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 159px);top: 814px;}
- .roupa-10 {width: 168px; height: 299px; position: static;}
- .rectangle-713 {width: 168px; height: 241px; position: absolute; left: 732px;top: 550px;}
- .cal-a-piet-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -48px);top: 811px;}
- .roupa-11 {width: 168px; height: 302px; position: static;}
- .rectangle-714 {width: 168px; height: 241px; position: absolute; left: 924px;top: 550px;}
- .cal-a-high-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -236px);top: 814px;}
- .roupa-12 {width: 168px; height: 299px; position: static;}
- .rectangle-715 {width: 168px; height: 241px; position: absolute; left: 1116px;top: 550px;}
- .jacket-patta-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -420px);top: 811px;}
- .group-27 {width: 1128px; height: 310px; position: static;}
- .roupa-13 {width: 168px; height: 310px; position: static;}
- .item-5 {width: 168px; height: 241px; position: static;}
- .rectangle-716 {width: 168px; height: 241px; position: absolute; left: 156px;top: 871px;}
- .bermuda-class-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 553px);top: 1143px;}
- .roupa-14 {width: 170px; height: 310px; position: static;}
- .rectangle-717 {background: linear-gradient(to left, #ffffff, #ffffff); width: 168px; height: 241px; position: absolute; left: 348px;top: 871px;}
- .camiseta-sufgang-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 374px);top: 1143px;}
- .roupa-15 {width: 172px; height: 310px; position: static;}
- .rectangle-718 {width: 168px; height: 241px; position: absolute; left: 540px;top: 871px;}
- .jacket-on-the-run-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 183px);top: 1143px;}
- .roupa-16 {width: 168px; height: 307px; position: static;}
- .rectangle-719 {width: 168px; height: 241px; position: absolute; left: 732px;top: 871px;}
- .puffy-jacket-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -35px);top: 1140px;}
- .roupa-17 {width: 168px; height: 310px; position: static;}
- .rectangle-720 {width: 168px; height: 241px; position: absolute; left: 924px;top: 871px;}
- .basic-pack-white-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -208px);top: 1143px;}
- .roupa-18 {width: 168px; height: 307px; position: static;}
- .rectangle-721 {width: 168px; height: 241px; position: absolute; left: 1116px;top: 871px;}
- .camiseta-nets-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -414px);top: 1140px;}
- .barra-superior {width: 1440px; height: 95px; position: absolute; left: 0px;top: 0px;}
- .barra-superior2 {background: var(--cinza-1, #222222); width: 1440px; height: 95px; position: absolute; left: 0px;top: 0px;}
- .home {position: absolute; inset: 0;}
- .home2 {color: var(--branco, #ffffff); text-align: left; font: 700 16px/112% 'Montserrat', sans-serif; position: absolute; left: 444px;top: 38px;}
- .material-symbols-arrow-back-ios {position: absolute; left: 502px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .marcas {position: absolute; inset: 0;}
- .marcas2 {color: var(--branco, #ffffff); text-align: left; font: 700 16px/112% 'Montserrat', sans-serif; position: absolute; left: 540px;top: 38px;}
- .material-symbols-arrow-back-ios2 {position: absolute; left: 619px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .roupas2 {position: absolute; inset: 0;}
- .roupas3 {color: var(--branco, #ffffff); text-align: left; font: 700 16px/112% 'Montserrat', sans-serif; position: absolute; left: 657px;top: 38px;}
- .material-symbols-arrow-back-ios3 {position: absolute; left: 734px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .tenis {position: absolute; inset: 0;}
- .t-nis {color: var(--branco, #ffffff); text-align: left; font: 700 16px/112% 'Montserrat', sans-serif; position: absolute; left: 772px;top: 38px;}
- .material-symbols-arrow-back-ios4 {position: absolute; left: 826px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .acessorios {position: absolute; inset: 0;}
- .acess-rios {color: var(--branco, #ffffff); text-align: left; font: 700 16px/112% 'Montserrat', sans-serif; position: absolute; left: 864px;top: 38px;}
- .material-symbols-arrow-back-ios5 {position: absolute; left: 979px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .icones {position: absolute; inset: 0;}
- .material-symbols-search {position: absolute; left: 1112px;top: 33px; overflow: visible;}
- .mdi-user-circle-outline {position: absolute; left: 1160px;top: 33px; overflow: visible;}
- .mdi-cards-heart-outline {position: absolute; left: 1208px;top: 33px; overflow: visible;}
- .material-symbols-shopping-cart-outline {position: absolute; left: 1256px;top: 33px; overflow: visible;}
- .home3 {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 444px;top: 38px;}
- .material-symbols-arrow-back-ios6 {position: absolute; left: 502px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .roupas4 {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 564px;top: 38px;}
- .material-symbols-arrow-back-ios7 {position: absolute; left: 641px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .t-nis2 {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 703px;top: 38px;}
- .material-symbols-arrow-back-ios8 {position: absolute; left: 757px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .acess-rios2 {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 819px;top: 38px;}
- .material-symbols-arrow-back-ios9 {position: absolute; left: 934px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .material-symbols-search2 {position: absolute; left: 1112px;top: 33px; overflow: visible;}
- .mdi-user-circle-outline2 {position: absolute; left: 1160px;top: 33px; overflow: visible;}
- .mdi-cards-heart-outline2 {position: absolute; left: 1208px;top: 33px; overflow: visible;}
- .material-symbols-shopping-cart-outline2 {position: absolute; left: 1256px;top: 33px; overflow: visible;}
- .logo-para-vendedor-ou-loja-de-sneakers-cor-neutra-urbano-1-removebg-preview-1 {width: 78px; height: 77px; position: absolute; left: 143px;top: 9px;}
- .barra-inferior {width: 1440px; height: 95px; position: absolute; left: 0px;top: 1295px;}
- .barra-inferiro {width: 1440px; height: 95px; position: absolute; left: 0px;top: 0px;}
- .group-23 {position: absolute; inset: 0;}
- .contato {color: var(--primary, #ff33a9); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 156px;top: 10px;}
- .e-mail-contato-marca-com-br {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 156px;top: 38px;}
- .whatsapp-55-14-xxxxx-xxxx {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 156px;top: 66px;}
- .logo-para-vendedor-ou-loja-de-sneakers-cor-neutra-urbano-1-removebg-preview-2 {width: 117px; height: 113px; position: absolute; left: 125px;top: -3px;}
+	margin: 0;
+	padding: 0;
+	border: none;
+	transform: scale(1.35);
+	transform-origin: 0 0;
+}
+
+.roupas-desktop,
+.roupas-desktop * {
+	box-sizing: border-box;
+}
+
+.roupas-desktop {
+	background: #ffffff;
+	width: 1440px;
+	height: 1390px;
+	position: relative;
+	overflow: hidden;
+}
+
+.group-3 {
+	position: absolute;
+	inset: 0;
+}
+
+.group-1 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.item-6 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-7 {
+	background: #d9d9d9;
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 348px;
+	top: 229px;
+}
+
+.group-2 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-72 {
+	background: #d9d9d9;
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 348px;
+	top: 550px;
+}
+
+.group-32 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-73 {
+	background: #d9d9d9;
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 348px;
+	top: 871px;
+}
+
+.group-14 {
+	position: absolute;
+	inset: 0;
+}
+
+.group-13 {
+	width: 267px;
+	height: 35px;
+	position: static;
+}
+
+.filtros {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -300px);
+	top: 180px;
+	width: 96px;
+	height: 35px;
+}
+
+.ordernar-por {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -423px);
+	top: 180px;
+	width: 144px;
+	height: 35px;
+}
+
+.group-17 {
+	position: absolute;
+	inset: 0;
+}
+
+.roupas {
+	color: var(--primary, #ff33a9);
+	text-align: center;
+	font: var(--detalhesnegrito-20, 700 20px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 84px);
+	top: 180px;
+	width: 159px;
+	height: 35px;
+}
+
+.group-28 {
+	position: absolute;
+	inset: 0;
+}
+
+.group-25 {
+	width: 1128px;
+	height: 299px;
+	position: static;
+}
+
+.roupa-1 {
+	width: 168px;
+	height: 299px;
+	position: static;
+}
+
+.rectangle-74 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 156px;
+	top: 229px;
+}
+
+.camiseta-palla-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 551px);
+	top: 490px;
+}
+
+.roupa-2 {
+	width: 168px;
+	height: 299px;
+	position: static;
+}
+
+.item-7 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-75 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 348px;
+	top: 229px;
+}
+
+.cal-a-sufgang-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 359px);
+	top: 490px;
+}
+
+.roupa-3 {
+	width: 168px;
+	height: 299px;
+	position: static;
+}
+
+.item-8 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-76 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 540px;
+	top: 229px;
+}
+
+.moletom-travis-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 173px);
+	top: 490px;
+}
+
+.roupa-4 {
+	width: 168px;
+	height: 296px;
+	position: static;
+}
+
+.item-9 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-77 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 732px;
+	top: 229px;
+}
+
+.corta-vento-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -36px);
+	top: 487px;
+}
+
+.roupa-5 {
+	width: 183px;
+	height: 299px;
+	position: static;
+}
+
+.item-10 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-78 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 924px;
+	top: 229px;
+}
+
+.camiseta-oversized-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -196px);
+	top: 490px;
+}
+
+.roupa-6 {
+	width: 168px;
+	height: 296px;
+	position: static;
+}
+
+.item-11 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-79 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 1116px;
+	top: 229px;
+}
+
+.bermuda-high-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -412px);
+	top: 487px;
+}
+
+.group-26 {
+	width: 1131px;
+	height: 302px;
+	position: static;
+}
+
+.roupa-7 {
+	width: 173px;
+	height: 302px;
+	position: static;
+}
+
+.roupa-72 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-710 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 156px;
+	top: 550px;
+}
+
+.moletom-supreme-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 567px);
+	top: 814px;
+}
+
+.roupa-8 {
+	width: 188px;
+	height: 302px;
+	position: static;
+}
+
+.rectangle-711 {
+	background: linear-gradient(to left, #ffffff, #ffffff);
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 348px;
+	top: 550px;
+}
+
+.camiseta-agostinho-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 383px);
+	top: 814px;
+}
+
+.roupa-9 {
+	width: 168px;
+	height: 302px;
+	position: static;
+}
+
+.rectangle-712 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 540px;
+	top: 550px;
+}
+
+.camiseta-piet-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 159px);
+	top: 814px;
+}
+
+.roupa-10 {
+	width: 168px;
+	height: 299px;
+	position: static;
+}
+
+.rectangle-713 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 732px;
+	top: 550px;
+}
+
+.cal-a-piet-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -48px);
+	top: 811px;
+}
+
+.roupa-11 {
+	width: 168px;
+	height: 302px;
+	position: static;
+}
+
+.rectangle-714 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 924px;
+	top: 550px;
+}
+
+.cal-a-high-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -236px);
+	top: 814px;
+}
+
+.roupa-12 {
+	width: 168px;
+	height: 299px;
+	position: static;
+}
+
+.rectangle-715 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 1116px;
+	top: 550px;
+}
+
+.jacket-patta-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -420px);
+	top: 811px;
+}
+
+.group-27 {
+	width: 1128px;
+	height: 310px;
+	position: static;
+}
+
+.roupa-13 {
+	width: 168px;
+	height: 310px;
+	position: static;
+}
+
+.item-5 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-716 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 156px;
+	top: 871px;
+}
+
+.bermuda-class-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 553px);
+	top: 1143px;
+}
+
+.roupa-14 {
+	width: 170px;
+	height: 310px;
+	position: static;
+}
+
+.rectangle-717 {
+	background: linear-gradient(to left, #ffffff, #ffffff);
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 348px;
+	top: 871px;
+}
+
+.camiseta-sufgang-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 374px);
+	top: 1143px;
+}
+
+.roupa-15 {
+	width: 172px;
+	height: 310px;
+	position: static;
+}
+
+.rectangle-718 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 540px;
+	top: 871px;
+}
+
+.jacket-on-the-run-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 183px);
+	top: 1143px;
+}
+
+.roupa-16 {
+	width: 168px;
+	height: 307px;
+	position: static;
+}
+
+.rectangle-719 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 732px;
+	top: 871px;
+}
+
+.puffy-jacket-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -35px);
+	top: 1140px;
+}
+
+.roupa-17 {
+	width: 168px;
+	height: 310px;
+	position: static;
+}
+
+.rectangle-720 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 924px;
+	top: 871px;
+}
+
+.basic-pack-white-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -208px);
+	top: 1143px;
+}
+
+.roupa-18 {
+	width: 168px;
+	height: 307px;
+	position: static;
+}
+
+.rectangle-721 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 1116px;
+	top: 871px;
+}
+
+.camiseta-nets-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -414px);
+	top: 1140px;
+}
+
+.barra-superior {
+	width: 1440px;
+	height: 95px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.barra-superior2 {
+	background: var(--cinza-1, #222222);
+	width: 1440px;
+	height: 95px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.home {
+	position: absolute;
+	inset: 0;
+}
+
+.home2 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: 700 16px/112% 'Montserrat', sans-serif;
+	position: absolute;
+	left: 444px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios {
+	position: absolute;
+	left: 502px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.marcas {
+	position: absolute;
+	inset: 0;
+}
+
+.marcas2 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: 700 16px/112% 'Montserrat', sans-serif;
+	position: absolute;
+	left: 540px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios2 {
+	position: absolute;
+	left: 619px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.roupas2 {
+	position: absolute;
+	inset: 0;
+}
+
+.roupas3 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: 700 16px/112% 'Montserrat', sans-serif;
+	position: absolute;
+	left: 657px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios3 {
+	position: absolute;
+	left: 734px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.tenis {
+	position: absolute;
+	inset: 0;
+}
+
+.t-nis {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: 700 16px/112% 'Montserrat', sans-serif;
+	position: absolute;
+	left: 772px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios4 {
+	position: absolute;
+	left: 826px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.acessorios {
+	position: absolute;
+	inset: 0;
+}
+
+.acess-rios {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: 700 16px/112% 'Montserrat', sans-serif;
+	position: absolute;
+	left: 864px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios5 {
+	position: absolute;
+	left: 979px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.icones {
+	position: absolute;
+	inset: 0;
+}
+
+.material-symbols-search {
+	position: absolute;
+	left: 1112px;
+	top: 33px;
+	overflow: visible;
+}
+
+.mdi-user-circle-outline {
+	position: absolute;
+	left: 1160px;
+	top: 33px;
+	overflow: visible;
+}
+
+.mdi-cards-heart-outline {
+	position: absolute;
+	left: 1208px;
+	top: 33px;
+	overflow: visible;
+}
+
+.material-symbols-shopping-cart-outline {
+	position: absolute;
+	left: 1256px;
+	top: 33px;
+	overflow: visible;
+}
+
+.home3 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 444px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios6 {
+	position: absolute;
+	left: 502px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.roupas4 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 564px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios7 {
+	position: absolute;
+	left: 641px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.t-nis2 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 703px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios8 {
+	position: absolute;
+	left: 757px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.acess-rios2 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 819px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios9 {
+	position: absolute;
+	left: 934px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.material-symbols-search2 {
+	position: absolute;
+	left: 1112px;
+	top: 33px;
+	overflow: visible;
+}
+
+.mdi-user-circle-outline2 {
+	position: absolute;
+	left: 1160px;
+	top: 33px;
+	overflow: visible;
+}
+
+.mdi-cards-heart-outline2 {
+	position: absolute;
+	left: 1208px;
+	top: 33px;
+	overflow: visible;
+}
+
+.material-symbols-shopping-cart-outline2 {
+	position: absolute;
+	left: 1256px;
+	top: 33px;
+	overflow: visible;
+}
+
+.logo-para-vendedor-ou-loja-de-sneakers-cor-neutra-urbano-1-removebg-preview-1 {
+	width: 78px;
+	height: 77px;
+	position: absolute;
+	left: 143px;
+	top: 9px;
+}
+
+.barra-inferior {
+	width: 1440px;
+	height: 95px;
+	position: absolute;
+	left: 0px;
+	top: 1295px;
+}
+
+.barra-inferiro {
+	width: 1440px;
+	height: 95px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.group-23 {
+	position: absolute;
+	inset: 0;
+}
+
+.contato {
+	color: var(--primary, #ff33a9);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 156px;
+	top: 10px;
+}
+
+.e-mail-contato-marca-com-br {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 156px;
+	top: 38px;
+}
+
+.whatsapp-55-14-xxxxx-xxxx {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 156px;
+	top: 66px;
+}
+
+.logo-para-vendedor-ou-loja-de-sneakers-cor-neutra-urbano-1-removebg-preview-2 {
+	width: 117px;
+	height: 113px;
+	position: absolute;
+	left: 125px;
+	top: -3px;
+}

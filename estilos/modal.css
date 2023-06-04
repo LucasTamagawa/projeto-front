@@ -1,16 +1,78 @@
 body {
-    margin: 0;
-    padding: 0;
-    border: none;
-    transform: scale(1.35);
-    transform-origin: 0 0;
-  }
-  
-.modal-finalizar-compra, .modal-finalizar-compra * { box-sizing: border-box; }.modal-finalizar-compra {border-radius: 20px; width: 840px; height: 670px; position: relative; overflow: hidden;}
- .group-41 {position: absolute; inset: 0;}
- .modal {background: var(--cinza-1, #222222); width: 840px; height: 670px; position: absolute; left: 0px;top: 0px;}
- .logo-para-vendedor-ou-loja-de-sneakers-cor-neutra-urbano-1-removebg-preview-2 {width: 390.96px; height: 493px; position: absolute; left: 225px;top: 21px;}
- .obrigado-pela-sua-compra {color: var(--primary, #ff33a9); text-align: left; font: var(--textomedionegrito-39, 700 39px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 332px);top: 458px;}
- .cadastrar {position: absolute; inset: 0;}
- .rectangle-16 {background: var(--cinza-1, #222222); border-radius: 10px; border-style: solid; border-color: #ff33a9; border-width: 1px; width: 168px; height: 40px; position: absolute; left: 336px;top: 590px;}
- .fechar {color: var(--primary, #ff33a9); text-align: left; font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 45px);top: 599px;}
+	margin: 0;
+	padding: 0;
+	border: none;
+	transform: scale(1.35);
+	transform-origin: 0 0;
+}
+
+.modal-finalizar-compra,
+.modal-finalizar-compra * {
+	box-sizing: border-box;
+}
+
+.modal-finalizar-compra {
+	border-radius: 20px;
+	width: 840px;
+	height: 670px;
+	position: relative;
+	overflow: hidden;
+}
+
+.group-41 {
+	position: absolute;
+	inset: 0;
+}
+
+.modal {
+	background: var(--cinza-1, #222222);
+	width: 840px;
+	height: 670px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.logo-para-vendedor-ou-loja-de-sneakers-cor-neutra-urbano-1-removebg-preview-2 {
+	width: 390.96px;
+	height: 493px;
+	position: absolute;
+	left: 225px;
+	top: 21px;
+}
+
+.obrigado-pela-sua-compra {
+	color: var(--primary, #ff33a9);
+	text-align: left;
+	font: var(--textomedionegrito-39, 700 39px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 332px);
+	top: 458px;
+}
+
+.cadastrar {
+	position: absolute;
+	inset: 0;
+}
+
+.rectangle-16 {
+	background: var(--cinza-1, #222222);
+	border-radius: 10px;
+	border-style: solid;
+	border-color: #ff33a9;
+	border-width: 1px;
+	width: 168px;
+	height: 40px;
+	position: absolute;
+	left: 336px;
+	top: 590px;
+}
+
+.fechar {
+	color: var(--primary, #ff33a9);
+	text-align: left;
+	font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 45px);
+	top: 599px;
+}

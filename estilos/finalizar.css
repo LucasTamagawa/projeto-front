@@ -1,76 +1,545 @@
 body {
-    margin: 0;
-    padding: 0;
-    border: none;
-    transform: scale(1.35);
-    transform-origin: 0 0;
-  }
-  
-.finalizar-compra-desktop, .finalizar-compra-desktop * { box-sizing: border-box; }.finalizar-compra-desktop {background: #ffffff; width: 1440px; height: 1390px; position: relative; overflow: hidden;}
- .barra-superior {width: 1440px; height: 95px; position: absolute; left: 0px;top: 0px;}
- .barra-superior2 {background: var(--cinza-1, #222222); width: 1440px; height: 95px; position: absolute; left: 0px;top: 0px;}
- .home {position: absolute; inset: 0;}
- .home2 {color: var(--branco, #ffffff); text-align: left; font: 700 16px/112% 'Montserrat', sans-serif; position: absolute; left: 444px;top: 38px;}
- .material-symbols-arrow-back-ios {position: absolute; left: 502px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .marcas {position: absolute; inset: 0;}
- .marcas2 {color: var(--branco, #ffffff); text-align: left; font: 700 16px/112% 'Montserrat', sans-serif; position: absolute; left: 540px;top: 38px;}
- .material-symbols-arrow-back-ios2 {position: absolute; left: 619px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .roupas {position: absolute; inset: 0;}
- .roupas2 {color: var(--branco, #ffffff); text-align: left; font: 700 16px/112% 'Montserrat', sans-serif; position: absolute; left: 657px;top: 38px;}
- .material-symbols-arrow-back-ios3 {position: absolute; left: 734px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .tenis {position: absolute; inset: 0;}
- .t-nis {color: var(--branco, #ffffff); text-align: left; font: 700 16px/112% 'Montserrat', sans-serif; position: absolute; left: 772px;top: 38px;}
- .material-symbols-arrow-back-ios4 {position: absolute; left: 826px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .acessorios {position: absolute; inset: 0;}
- .acess-rios {color: var(--branco, #ffffff); text-align: left; font: 700 16px/112% 'Montserrat', sans-serif; position: absolute; left: 864px;top: 38px;}
- .material-symbols-arrow-back-ios5 {position: absolute; left: 979px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .icones {position: absolute; inset: 0;}
- .material-symbols-search {position: absolute; left: 1112px;top: 33px; overflow: visible;}
- .mdi-user-circle-outline {position: absolute; left: 1160px;top: 33px; overflow: visible;}
- .mdi-cards-heart-outline {position: absolute; left: 1208px;top: 33px; overflow: visible;}
- .material-symbols-shopping-cart-outline {position: absolute; left: 1256px;top: 33px; overflow: visible;}
- .home3 {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 444px;top: 38px;}
- .material-symbols-arrow-back-ios6 {position: absolute; left: 502px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .roupas3 {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 564px;top: 38px;}
- .material-symbols-arrow-back-ios7 {position: absolute; left: 641px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .t-nis2 {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 703px;top: 38px;}
- .material-symbols-arrow-back-ios8 {position: absolute; left: 757px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .acess-rios2 {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 819px;top: 38px;}
- .material-symbols-arrow-back-ios9 {position: absolute; left: 934px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .material-symbols-search2 {position: absolute; left: 1112px;top: 33px; overflow: visible;}
- .mdi-user-circle-outline2 {position: absolute; left: 1160px;top: 33px; overflow: visible;}
- .mdi-cards-heart-outline2 {position: absolute; left: 1208px;top: 33px; overflow: visible;}
- .material-symbols-shopping-cart-outline2 {position: absolute; left: 1256px;top: 33px; overflow: visible;}
- .logo-para-vendedor-ou-loja-de-sneakers-cor-neutra-urbano-1-removebg-preview-1 {width: 78px; height: 77px; position: absolute; left: 143px;top: 9px;}
- .barra-inferior {width: 1440px; height: 95px; position: absolute; left: 0px;top: 1295px;}
- .barra-inferiro {width: 1440px; height: 95px; position: absolute; left: 0px;top: 0px;}
- .group-23 {position: absolute; inset: 0;}
- .contato {color: var(--primary, #ff33a9); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 156px;top: 10px;}
- .e-mail-contato-marca-com-br {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 156px;top: 38px;}
- .whatsapp-55-14-xxxxx-xxxx {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 156px;top: 66px;}
- .foto {position: absolute; inset: 0;}
- .group-2 {width: 168px; height: 241px; position: static;}
- .item-5 {width: 168px; height: 241px; position: static;}
- .rectangle-7 {background: #d9d9d9; width: 168px; height: 241px; position: absolute; left: 156px;top: 344px;}
- .item-8 {width: 168px; height: 241px; position: static;}
- .rectangle-72 {width: 168px; height: 241px; position: absolute; left: 156px;top: 344px;}
- .informa-oes {position: absolute; inset: 0;}
- .carrinho-de-compras {color: var(--primary, #ff33a9); text-align: center; font: var(--detalhesnegrito-20, 700 20px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 132px);top: 178px;}
- .produtos {color: var(--cinza-1, #222222); text-align: center; font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 562px);top: 286px;}
- .pre-o {color: var(--cinza-1, #222222); text-align: center; font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -59px);top: 286px;}
- .r-xx-xx {color: var(--cinza-1, #222222); text-align: center; font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -52px);top: 454px;}
- .r-xx-xx2 {color: var(--cinza-1, #222222); text-align: center; font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -436px);top: 454px;}
- .quantidade {color: var(--cinza-1, #222222); text-align: center; font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -217px);top: 286px;}
- .total {color: var(--cinza-1, #222222); text-align: center; font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -447px);top: 286px;}
- .linhas {position: absolute; left: 156px;top: 320px; overflow: visible;}
- .finalizar-a-compra {position: absolute; inset: 0;}
- .rectangle-16 {background: var(--cinza-1, #222222); border-radius: 5px; width: 360px; height: 40px; position: absolute; left: 540px;top: 725px;}
- .finalizar-a-compra2 {color: var(--primary, #ff33a9); text-align: left; font: var(--detalhesnegrito-20, 700 20px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 121px);top: 734px;}
- .add-ou-remover {position: absolute; inset: 0;}
- .rectangle-23 {border-style: solid; border-color: #000000; border-width: 1px; width: 168px; height: 48px; position: absolute; left: 924px;top: 441px;}
- ._1 {color: var(--cinza-1, #222222); text-align: center; font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -284px);top: 454px;}
- .material-symbols-add {position: absolute; left: 1048px;top: 454px; overflow: visible;}
- .line-4 {border-style: solid; border-color: #000000; border-width: 1px 0 0 0; width: 47px; height: 0px; position: absolute; left: 996px;top: 442px; transform-origin: 0 0; transform: rotate(90deg) scale(1, 1);}
- .line-5 {border-style: solid; border-color: #000000; border-width: 1px 0 0 0; width: 47px; height: 0px; position: absolute; left: 1019px;top: 441px; transform-origin: 0 0; transform: rotate(90deg) scale(1, 1);}
- .mdi-trash {position: absolute; left: 950px;top: 454px; overflow: visible;}
- .moletom-travis {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 372px);top: 457px;}
+	margin: 0;
+	padding: 0;
+	border: none;
+	transform: scale(1.35);
+	transform-origin: 0 0;
+}
+
+.finalizar-compra-desktop,
+.finalizar-compra-desktop * {
+	box-sizing: border-box;
+}
+
+.finalizar-compra-desktop {
+	background: #ffffff;
+	width: 1440px;
+	height: 1390px;
+	position: relative;
+	overflow: hidden;
+}
+
+.barra-superior {
+	width: 1440px;
+	height: 95px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.barra-superior2 {
+	background: var(--cinza-1, #222222);
+	width: 1440px;
+	height: 95px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.home {
+	position: absolute;
+	inset: 0;
+}
+
+.home2 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: 700 16px/112% 'Montserrat', sans-serif;
+	position: absolute;
+	left: 444px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios {
+	position: absolute;
+	left: 502px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.marcas {
+	position: absolute;
+	inset: 0;
+}
+
+.marcas2 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: 700 16px/112% 'Montserrat', sans-serif;
+	position: absolute;
+	left: 540px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios2 {
+	position: absolute;
+	left: 619px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.roupas {
+	position: absolute;
+	inset: 0;
+}
+
+.roupas2 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: 700 16px/112% 'Montserrat', sans-serif;
+	position: absolute;
+	left: 657px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios3 {
+	position: absolute;
+	left: 734px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.tenis {
+	position: absolute;
+	inset: 0;
+}
+
+.t-nis {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: 700 16px/112% 'Montserrat', sans-serif;
+	position: absolute;
+	left: 772px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios4 {
+	position: absolute;
+	left: 826px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.acessorios {
+	position: absolute;
+	inset: 0;
+}
+
+.acess-rios {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: 700 16px/112% 'Montserrat', sans-serif;
+	position: absolute;
+	left: 864px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios5 {
+	position: absolute;
+	left: 979px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.icones {
+	position: absolute;
+	inset: 0;
+}
+
+.material-symbols-search {
+	position: absolute;
+	left: 1112px;
+	top: 33px;
+	overflow: visible;
+}
+
+.mdi-user-circle-outline {
+	position: absolute;
+	left: 1160px;
+	top: 33px;
+	overflow: visible;
+}
+
+.mdi-cards-heart-outline {
+	position: absolute;
+	left: 1208px;
+	top: 33px;
+	overflow: visible;
+}
+
+.material-symbols-shopping-cart-outline {
+	position: absolute;
+	left: 1256px;
+	top: 33px;
+	overflow: visible;
+}
+
+.home3 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 444px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios6 {
+	position: absolute;
+	left: 502px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.roupas3 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 564px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios7 {
+	position: absolute;
+	left: 641px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.t-nis2 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 703px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios8 {
+	position: absolute;
+	left: 757px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.acess-rios2 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 819px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios9 {
+	position: absolute;
+	left: 934px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.material-symbols-search2 {
+	position: absolute;
+	left: 1112px;
+	top: 33px;
+	overflow: visible;
+}
+
+.mdi-user-circle-outline2 {
+	position: absolute;
+	left: 1160px;
+	top: 33px;
+	overflow: visible;
+}
+
+.mdi-cards-heart-outline2 {
+	position: absolute;
+	left: 1208px;
+	top: 33px;
+	overflow: visible;
+}
+
+.material-symbols-shopping-cart-outline2 {
+	position: absolute;
+	left: 1256px;
+	top: 33px;
+	overflow: visible;
+}
+
+.logo-para-vendedor-ou-loja-de-sneakers-cor-neutra-urbano-1-removebg-preview-1 {
+	width: 78px;
+	height: 77px;
+	position: absolute;
+	left: 143px;
+	top: 9px;
+}
+
+.barra-inferior {
+	width: 1440px;
+	height: 95px;
+	position: absolute;
+	left: 0px;
+	top: 1295px;
+}
+
+.barra-inferiro {
+	width: 1440px;
+	height: 95px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.group-23 {
+	position: absolute;
+	inset: 0;
+}
+
+.contato {
+	color: var(--primary, #ff33a9);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 156px;
+	top: 10px;
+}
+
+.e-mail-contato-marca-com-br {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 156px;
+	top: 38px;
+}
+
+.whatsapp-55-14-xxxxx-xxxx {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 156px;
+	top: 66px;
+}
+
+.foto {
+	position: absolute;
+	inset: 0;
+}
+
+.group-2 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.item-5 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-7 {
+	background: #d9d9d9;
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 156px;
+	top: 344px;
+}
+
+.item-8 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-72 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 156px;
+	top: 344px;
+}
+
+.informa-oes {
+	position: absolute;
+	inset: 0;
+}
+
+.carrinho-de-compras {
+	color: var(--primary, #ff33a9);
+	text-align: center;
+	font: var(--detalhesnegrito-20, 700 20px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 132px);
+	top: 178px;
+}
+
+.produtos {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 562px);
+	top: 286px;
+}
+
+.pre-o {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -59px);
+	top: 286px;
+}
+
+.r-xx-xx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -52px);
+	top: 454px;
+}
+
+.r-xx-xx2 {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -436px);
+	top: 454px;
+}
+
+.quantidade {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -217px);
+	top: 286px;
+}
+
+.total {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -447px);
+	top: 286px;
+}
+
+.linhas {
+	position: absolute;
+	left: 156px;
+	top: 320px;
+	overflow: visible;
+}
+
+.finalizar-a-compra {
+	position: absolute;
+	inset: 0;
+}
+
+.rectangle-16 {
+	background: var(--cinza-1, #222222);
+	border-radius: 5px;
+	width: 360px;
+	height: 40px;
+	position: absolute;
+	left: 540px;
+	top: 725px;
+}
+
+.finalizar-a-compra2 {
+	color: var(--primary, #ff33a9);
+	text-align: left;
+	font: var(--detalhesnegrito-20, 700 20px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 121px);
+	top: 734px;
+}
+
+.add-ou-remover {
+	position: absolute;
+	inset: 0;
+}
+
+.rectangle-23 {
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px;
+	width: 168px;
+	height: 48px;
+	position: absolute;
+	left: 924px;
+	top: 441px;
+}
+
+._1 {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -284px);
+	top: 454px;
+}
+
+.material-symbols-add {
+	position: absolute;
+	left: 1048px;
+	top: 454px;
+	overflow: visible;
+}
+
+.line-4 {
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px 0 0 0;
+	width: 47px;
+	height: 0px;
+	position: absolute;
+	left: 996px;
+	top: 442px;
+	transform-origin: 0 0;
+	transform: rotate(90deg) scale(1, 1);
+}
+
+.line-5 {
+	border-style: solid;
+	border-color: #000000;
+	border-width: 1px 0 0 0;
+	width: 47px;
+	height: 0px;
+	position: absolute;
+	left: 1019px;
+	top: 441px;
+	transform-origin: 0 0;
+	transform: rotate(90deg) scale(1, 1);
+}
+
+.mdi-trash {
+	position: absolute;
+	left: 950px;
+	top: 454px;
+	overflow: visible;
+}
+
+.moletom-travis {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 372px);
+	top: 457px;
+}

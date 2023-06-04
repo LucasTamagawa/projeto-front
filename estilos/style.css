@@ -1,159 +1,1168 @@
 body {
-    margin: 0;
-    padding: 0;
-    border: none;
-    transform: scale(1.35);
-    transform-origin: 0 0;
-  }
-  
-.home, .home * { 
-    box-sizing: border-box; }
-    .home {background: var(--branco, #ffffff); width: 1440px; height: 4038px; position: relative; overflow: hidden;}
- .tenis {position: absolute; inset: 0;}
- .snapinsta-1 {width: 648px; height: 600px; position: absolute; left: 156px;top: 2514px;}
- .item-1 {width: 168px; height: 187px; position: static;}
- .image-1 {width: 168px; height: 120.44px; position: absolute; left: 828px;top: 2582px;}
- .yezzy-slide {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 831.41px;top: 2727px; width: 119.19px;}
- .r-xx-xx {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 831.41px;top: 2750px; width: 81.73px;}
- .item-2 {width: 166px; height: 187px; position: static;}
- .image-12 {width: 157.49px; height: 120.44px; position: absolute; left: 1116px;top: 2582px;}
- .air-max-1-travis {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 1119.19px;top: 2727px; width: 162.81px;}
- .r-xx-xx2 {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 1119.19px;top: 2750px; width: 76.62px;}
- .item-3 {width: 168px; height: 187px; position: static;}
- .image-13 {width: 151.61px; height: 120.44px; position: absolute; left: 828px;top: 2898px;}
- .group-4 {width: 164.93px; height: 42px; position: static;}
- .jordan-1 {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 831.07px;top: 3043px; width: 164.93px;}
- .r-xx-xx3 {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 831.07px;top: 3066px; width: 73.76px;}
- .item-4 {width: 168px; height: 187px; position: static;}
- .image-14 {width: 152.54px; height: 120.44px; position: absolute; left: 1116px;top: 2898px;}
- .new-balance-550 {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 1119.09px;top: 3043px; width: 164.91px;}
- .r-xx-xx4 {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 1119.09px;top: 3066px; width: 74.21px;}
- .line-1 {border-style: solid; border-color: var(--cinza-4, #e5e5e5); border-width: 1px 0 0 0; width: 456px; height: 0px; position: absolute; left: 828px;top: 2537px; transform-origin: 0 0; transform: rotate(0deg) scale(1, 1);}
- .t-nis {color: var(--cinza-1, #222222); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -108.01px);top: 2514px;}
- .roupas {position: absolute; inset: 0;}
- .snapinsta-12 {width: 648px; height: 600px; position: absolute; left: 636px;top: 974px;}
- .item-12 {width: 165px; height: 187px; position: static;}
- .image-15 {width: 165px; height: 120.44px; position: absolute; left: 159px;top: 1042px;}
- .camiseta-palla {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 162.34px;top: 1187px; width: 159.43px;}
- .r-xx-xx5 {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 162.34px;top: 1210px; width: 80.27px;}
- .item-22 {width: 168px; height: 187px; position: static;}
- .image-16 {width: 168px; height: 120.44px; position: absolute; left: 444px;top: 1042px;}
- .cal-a-sufgang {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 447.41px;top: 1187px; width: 161.19px;}
- .r-xx-xx6 {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 447.41px;top: 1210px; width: 81.73px;}
- .item-32 {width: 163px; height: 187px; position: static;}
- .image-17 {width: 157.67px; height: 120.44px; position: absolute; left: 156px;top: 1358px;}
- .moletom-travis {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 159.2px;top: 1503px; width: 159.8px;}
- .r-xx-xx7 {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 159.2px;top: 1526px; width: 76.71px;}
- .item-42 {width: 165px; height: 187px; position: static;}
- .image-18 {width: 165px; height: 120.44px; position: absolute; left: 444px;top: 1358px;}
- .corta-vento {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 447.34px;top: 1503px; width: 133.78px;}
- .r-xx-xx8 {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 447.34px;top: 1526px; width: 80.27px;}
- .line-12 {border-style: solid; border-color: var(--cinza-4, #e5e5e5); border-width: 1px 0 0 0; width: 456px; height: 0px; position: absolute; left: 156px;top: 997px; transform-origin: 0 0; transform: rotate(0deg) scale(1, 1);}
- .roupas2 {color: var(--cinza-1, #222222); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 563.99px);top: 974px;}
- .v-deo {position: absolute; inset: 0;}
- .rectangle-8 {width: 1440px; height: 800px; position: absolute; left: 0px;top: 1644px;}
- .informa-oes {position: absolute; inset: 0;}
- ._12-x-sem-juros {color: #000000; text-align: left; font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif); position: absolute; left: 354px;top: 852px;}
- .bi-credit-card {width: 38px; height: 38px; position: absolute; left: 413px;top: 802px; overflow: hidden;}
- .group {position: absolute; left: 0px;top: 4.75px; overflow: visible;}
- ._5-via-pix {color: #000000; text-align: left; font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif); position: absolute; left: 666px;top: 852px;}
- .frete-gr-tis {color: #000000; text-align: left; font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif); position: absolute; left: 935px;top: 852px;}
- .iconoir-percentage-square {width: 38px; height: 38px; position: absolute; left: 701px;top: 802px; overflow: hidden;}
- .group2 {position: absolute; left: 4.75px;top: 4.75px; overflow: visible;}
- .carbon-delivery-truck {position: absolute; left: 989px;top: 802px; overflow: visible;}
- .destaque-centro {position: absolute; inset: 0;}
- .barra-inferiro {width: 1440px; height: 666px; position: absolute; left: 0px;top: 95px;}
- .botao {width: 360px; height: 96px; position: static;}
- .rectangle-1 {border-radius: 30px; border-style: solid; border-color: var(--branco, #ffffff); border-width: 3px; width: 360px; height: 96px; position: absolute; left: 540px;top: 609px; box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.72);}
- .shop-now {color: var(--branco, #ffffff); text-align: left; font: var(--textomedionegrito-39, 700 39px/120% 'Montserrat', sans-serif); position: absolute; left: 600px;top: 635px;}
- .group-3 {position: absolute; inset: 0;}
- .group-1 {width: 1128px; height: 299px; position: static;}
- .group-46 {width: 168px; height: 299px; position: static;}
- .acessorios-1 {width: 168px; height: 299px; position: static;}
- .item-5 {width: 168px; height: 241px; position: static;}
- .rectangle-7 {width: 168px; height: 241px; position: absolute; left: 156px;top: 3264px;}
- .versace-medusa-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 563px);top: 3525px;}
- .group-44 {width: 168px; height: 299px; position: static;}
- .tenis-5 {width: 168px; height: 299px; position: static;}
- .item-10 {width: 168px; height: 241px; position: static;}
- .rectangle-72 {width: 168px; height: 241px; position: absolute; left: 540px;top: 3264px;}
- .jordan-1-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 137px);top: 3525px;}
- .roupa-6 {width: 168px; height: 296px; position: static;}
- .item-11 {width: 168px; height: 241px; position: static;}
- .rectangle-73 {width: 168px; height: 241px; position: absolute; left: 1116px;top: 3264px;}
- .bermuda-high-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -412px);top: 3522px;}
- .group-2 {width: 744px; height: 307px; position: static;}
- .group-43 {width: 168px; height: 299px; position: static;}
- .roupa-2 {width: 168px; height: 299px; position: static;}
- .item-7 {width: 168px; height: 241px; position: static;}
- .rectangle-74 {width: 168px; height: 241px; position: absolute; left: 156px;top: 3585px;}
- .cal-a-sufgang-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 551px);top: 3846px;}
- .group-45 {width: 168px; height: 307px; position: static;}
- .roupa-16 {width: 168px; height: 307px; position: static;}
- .item-9 {width: 168px; height: 241px; position: static;}
- .rectangle-75 {width: 168px; height: 241px; position: absolute; left: 346px;top: 3582px;}
- .puffy-jacket-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 351px);top: 3851px;}
- .extra-10 {width: 171px; height: 301px; position: static;}
- .texto {width: 164.93px; height: 42px; position: static;}
- .puma-blaze {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 729px;top: 3844px; width: 164.93px;}
- .r-xx-xx9 {color: var(--cinza-1, #222222); text-align: left; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: 729px;top: 3867px; width: 73.76px;}
- .rectangle-76 {width: 168px; height: 241px; position: absolute; left: 732px;top: 3585px;}
- .tenis-19 {width: 168px; height: 302px; position: static;}
- .rectangle-77 {width: 168px; height: 241px; position: absolute; left: 924px;top: 3264px;}
- .air-max-tn-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -236px);top: 3528px;}
- .barra-superior {width: 1440px; height: 95px; position: absolute; left: 0px;top: 0px;}
- .barra-superior2 {background: var(--cinza-1, #222222); width: 1440px; height: 95px; position: absolute; left: 0px;top: 0px;}
- .home2 {position: absolute; inset: 0;}
- .home3 {color: var(--branco, #ffffff); text-align: left; font: 700 16px/112% 'Montserrat', sans-serif; position: absolute; left: 444px;top: 38px;}
- .material-symbols-arrow-back-ios {position: absolute; left: 502px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .marcas {position: absolute; inset: 0;}
- .marcas2 {color: var(--branco, #ffffff); text-align: left; font: 700 16px/112% 'Montserrat', sans-serif; position: absolute; left: 540px;top: 38px;}
- .material-symbols-arrow-back-ios2 {position: absolute; left: 619px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .roupas3 {color: var(--branco, #ffffff); text-align: left; font: 700 16px/112% 'Montserrat', sans-serif; position: absolute; left: 657px;top: 38px;}
- .material-symbols-arrow-back-ios3 {position: absolute; left: 734px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .t-nis2 {color: var(--branco, #ffffff); text-align: left; font: 700 16px/112% 'Montserrat', sans-serif; position: absolute; left: 772px;top: 38px;}
- .material-symbols-arrow-back-ios4 {position: absolute; left: 826px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .acessorios {position: absolute; inset: 0;}
- .acess-rios {color: var(--branco, #ffffff); text-align: left; font: 700 16px/112% 'Montserrat', sans-serif; position: absolute; left: 864px;top: 38px;}
- .material-symbols-arrow-back-ios5 {position: absolute; left: 979px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .icones {position: absolute; inset: 0;}
- .material-symbols-search {position: absolute; left: 1112px;top: 33px; overflow: visible;}
- .mdi-user-circle-outline {position: absolute; left: 1160px;top: 33px; overflow: visible;}
- .mdi-cards-heart-outline {position: absolute; left: 1208px;top: 33px; overflow: visible;}
- .material-symbols-shopping-cart-outline {position: absolute; left: 1256px;top: 33px; overflow: visible;}
- .home4 {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 444px;top: 38px;}
- .material-symbols-arrow-back-ios6 {position: absolute; left: 502px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .roupas4 {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 564px;top: 38px;}
- .material-symbols-arrow-back-ios7 {position: absolute; left: 641px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .t-nis3 {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 703px;top: 38px;}
- .material-symbols-arrow-back-ios8 {position: absolute; left: 757px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .acess-rios2 {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 819px;top: 38px;}
- .material-symbols-arrow-back-ios9 {position: absolute; left: 934px;top: 53px; transform: translate(0px, -12px); overflow: visible;}
- .material-symbols-search2 {position: absolute; left: 1112px;top: 33px; overflow: visible;}
- .mdi-user-circle-outline2 {position: absolute; left: 1160px;top: 33px; overflow: visible;}
- .mdi-cards-heart-outline2 {position: absolute; left: 1208px;top: 33px; overflow: visible;}
- .material-symbols-shopping-cart-outline2 {position: absolute; left: 1256px;top: 33px; overflow: visible;}
- .logo-para-vendedor-ou-loja-de-sneakers-cor-neutra-urbano-1-removebg-preview-1 {width: 78px; height: 77px; position: absolute; left: 143px;top: 9px;}
- .barra-inferior {width: 1440px; height: 95px; position: absolute; left: 0px;top: 3943px;}
- .barra-inferiro2 {width: 1440px; height: 95px; position: absolute; left: 0px;top: 0px;}
- .group-23 {position: absolute; inset: 0;}
- .contato {color: var(--primary, #ff33a9); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 156px;top: 10px;}
- .e-mail-contato-marca-com-br {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 156px;top: 38px;}
- .whatsapp-55-14-xxxxx-xxxx {color: var(--branco, #ffffff); text-align: left; font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif); position: absolute; left: 156px;top: 66px;}
- .logo-para-vendedor-ou-loja-de-sneakers-cor-neutra-urbano-1-removebg-preview-2 {width: 117px; height: 113px; position: absolute; left: 125px;top: -3px;}
- .roupa-5 {position: absolute; inset: 0;}
- .rectangle-78 {width: 168px; height: 241px; position: absolute; left: 347px;top: 3264px;}
- .camiseta-oversized-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 381px);top: 3525px;}
- .acessorios-4 {position: absolute; inset: 0;}
- .rectangle-79 {width: 168px; height: 241px; position: absolute; left: 732px;top: 3264px;}
- .aim-leon-dore-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -22px);top: 3522px;}
- .acessorios-3 {position: absolute; inset: 0;}
- .item-8 {width: 168px; height: 241px; position: static;}
- .rectangle-710 {width: 168px; height: 241px; position: absolute; left: 540px;top: 3585px;}
- .travis-mask-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - 157px);top: 3846px;}
- .roupa-1 {position: absolute; inset: 0;}
- .rectangle-711 {width: 168px; height: 241px; position: absolute; left: 924px;top: 3585px;}
- .camiseta-palla-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -217px);top: 3846px;}
- .roupa-19 {position: absolute; inset: 0;}
- .rectangle-712 {width: 168px; height: 241px; position: absolute; left: 1116px;top: 3576px;}
- .basic-pack-white-r-xxxx {color: var(--cinza-1, #222222); text-align: center; font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif); position: absolute; left: calc(50% - -400px);top: 3848px;}
+	margin: 0;
+	padding: 0;
+	border: none;
+	transform: scale(1.35);
+	transform-origin: 0 0;
+}
+
+.home,
+.home * {
+	box-sizing: border-box;
+}
+
+.home {
+	background: var(--branco, #ffffff);
+	width: 1440px;
+	height: 4038px;
+	position: relative;
+	overflow: hidden;
+}
+
+.tenis {
+	position: absolute;
+	inset: 0;
+}
+
+.snapinsta-1 {
+	width: 648px;
+	height: 600px;
+	position: absolute;
+	left: 156px;
+	top: 2514px;
+}
+
+.item-1 {
+	width: 168px;
+	height: 187px;
+	position: static;
+}
+
+.image-1 {
+	width: 168px;
+	height: 120.44px;
+	position: absolute;
+	left: 828px;
+	top: 2582px;
+}
+
+.yezzy-slide {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 831.41px;
+	top: 2727px;
+	width: 119.19px;
+}
+
+.r-xx-xx {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 831.41px;
+	top: 2750px;
+	width: 81.73px;
+}
+
+.item-2 {
+	width: 166px;
+	height: 187px;
+	position: static;
+}
+
+.image-12 {
+	width: 157.49px;
+	height: 120.44px;
+	position: absolute;
+	left: 1116px;
+	top: 2582px;
+}
+
+.air-max-1-travis {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 1119.19px;
+	top: 2727px;
+	width: 162.81px;
+}
+
+.r-xx-xx2 {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 1119.19px;
+	top: 2750px;
+	width: 76.62px;
+}
+
+.item-3 {
+	width: 168px;
+	height: 187px;
+	position: static;
+}
+
+.image-13 {
+	width: 151.61px;
+	height: 120.44px;
+	position: absolute;
+	left: 828px;
+	top: 2898px;
+}
+
+.group-4 {
+	width: 164.93px;
+	height: 42px;
+	position: static;
+}
+
+.jordan-1 {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 831.07px;
+	top: 3043px;
+	width: 164.93px;
+}
+
+.r-xx-xx3 {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 831.07px;
+	top: 3066px;
+	width: 73.76px;
+}
+
+.item-4 {
+	width: 168px;
+	height: 187px;
+	position: static;
+}
+
+.image-14 {
+	width: 152.54px;
+	height: 120.44px;
+	position: absolute;
+	left: 1116px;
+	top: 2898px;
+}
+
+.new-balance-550 {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 1119.09px;
+	top: 3043px;
+	width: 164.91px;
+}
+
+.r-xx-xx4 {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 1119.09px;
+	top: 3066px;
+	width: 74.21px;
+}
+
+.line-1 {
+	border-style: solid;
+	border-color: var(--cinza-4, #e5e5e5);
+	border-width: 1px 0 0 0;
+	width: 456px;
+	height: 0px;
+	position: absolute;
+	left: 828px;
+	top: 2537px;
+	transform-origin: 0 0;
+	transform: rotate(0deg) scale(1, 1);
+}
+
+.t-nis {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -108.01px);
+	top: 2514px;
+}
+
+.roupas {
+	position: absolute;
+	inset: 0;
+}
+
+.snapinsta-12 {
+	width: 648px;
+	height: 600px;
+	position: absolute;
+	left: 636px;
+	top: 974px;
+}
+
+.item-12 {
+	width: 165px;
+	height: 187px;
+	position: static;
+}
+
+.image-15 {
+	width: 165px;
+	height: 120.44px;
+	position: absolute;
+	left: 159px;
+	top: 1042px;
+}
+
+.camiseta-palla {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 162.34px;
+	top: 1187px;
+	width: 159.43px;
+}
+
+.r-xx-xx5 {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 162.34px;
+	top: 1210px;
+	width: 80.27px;
+}
+
+.item-22 {
+	width: 168px;
+	height: 187px;
+	position: static;
+}
+
+.image-16 {
+	width: 168px;
+	height: 120.44px;
+	position: absolute;
+	left: 444px;
+	top: 1042px;
+}
+
+.cal-a-sufgang {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 447.41px;
+	top: 1187px;
+	width: 161.19px;
+}
+
+.r-xx-xx6 {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 447.41px;
+	top: 1210px;
+	width: 81.73px;
+}
+
+.item-32 {
+	width: 163px;
+	height: 187px;
+	position: static;
+}
+
+.image-17 {
+	width: 157.67px;
+	height: 120.44px;
+	position: absolute;
+	left: 156px;
+	top: 1358px;
+}
+
+.moletom-travis {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 159.2px;
+	top: 1503px;
+	width: 159.8px;
+}
+
+.r-xx-xx7 {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 159.2px;
+	top: 1526px;
+	width: 76.71px;
+}
+
+.item-42 {
+	width: 165px;
+	height: 187px;
+	position: static;
+}
+
+.image-18 {
+	width: 165px;
+	height: 120.44px;
+	position: absolute;
+	left: 444px;
+	top: 1358px;
+}
+
+.corta-vento {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 447.34px;
+	top: 1503px;
+	width: 133.78px;
+}
+
+.r-xx-xx8 {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 447.34px;
+	top: 1526px;
+	width: 80.27px;
+}
+
+.line-12 {
+	border-style: solid;
+	border-color: var(--cinza-4, #e5e5e5);
+	border-width: 1px 0 0 0;
+	width: 456px;
+	height: 0px;
+	position: absolute;
+	left: 156px;
+	top: 997px;
+	transform-origin: 0 0;
+	transform: rotate(0deg) scale(1, 1);
+}
+
+.roupas2 {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 563.99px);
+	top: 974px;
+}
+
+.v-deo {
+	position: absolute;
+	inset: 0;
+}
+
+.rectangle-8 {
+	width: 1440px;
+	height: 800px;
+	position: absolute;
+	left: 0px;
+	top: 1644px;
+}
+
+.informa-oes {
+	position: absolute;
+	inset: 0;
+}
+
+._12-x-sem-juros {
+	color: #000000;
+	text-align: left;
+	font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 354px;
+	top: 852px;
+}
+
+.bi-credit-card {
+	width: 38px;
+	height: 38px;
+	position: absolute;
+	left: 413px;
+	top: 802px;
+	overflow: hidden;
+}
+
+.group {
+	position: absolute;
+	left: 0px;
+	top: 4.75px;
+	overflow: visible;
+}
+
+._5-via-pix {
+	color: #000000;
+	text-align: left;
+	font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 666px;
+	top: 852px;
+}
+
+.frete-gr-tis {
+	color: #000000;
+	text-align: left;
+	font: var(--detalhes-20, 400 20px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 935px;
+	top: 852px;
+}
+
+.iconoir-percentage-square {
+	width: 38px;
+	height: 38px;
+	position: absolute;
+	left: 701px;
+	top: 802px;
+	overflow: hidden;
+}
+
+.group2 {
+	position: absolute;
+	left: 4.75px;
+	top: 4.75px;
+	overflow: visible;
+}
+
+.carbon-delivery-truck {
+	position: absolute;
+	left: 989px;
+	top: 802px;
+	overflow: visible;
+}
+
+.destaque-centro {
+	position: absolute;
+	inset: 0;
+}
+
+.barra-inferiro {
+	width: 1440px;
+	height: 666px;
+	position: absolute;
+	left: 0px;
+	top: 95px;
+}
+
+.botao {
+	width: 360px;
+	height: 96px;
+	position: static;
+}
+
+.rectangle-1 {
+	border-radius: 30px;
+	border-style: solid;
+	border-color: var(--branco, #ffffff);
+	border-width: 3px;
+	width: 360px;
+	height: 96px;
+	position: absolute;
+	left: 540px;
+	top: 609px;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.72);
+}
+
+.shop-now {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--textomedionegrito-39, 700 39px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 600px;
+	top: 635px;
+}
+
+.group-3 {
+	position: absolute;
+	inset: 0;
+}
+
+.group-1 {
+	width: 1128px;
+	height: 299px;
+	position: static;
+}
+
+.group-46 {
+	width: 168px;
+	height: 299px;
+	position: static;
+}
+
+.acessorios-1 {
+	width: 168px;
+	height: 299px;
+	position: static;
+}
+
+.item-5 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-7 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 156px;
+	top: 3264px;
+}
+
+.versace-medusa-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 563px);
+	top: 3525px;
+}
+
+.group-44 {
+	width: 168px;
+	height: 299px;
+	position: static;
+}
+
+.tenis-5 {
+	width: 168px;
+	height: 299px;
+	position: static;
+}
+
+.item-10 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-72 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 540px;
+	top: 3264px;
+}
+
+.jordan-1-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 137px);
+	top: 3525px;
+}
+
+.roupa-6 {
+	width: 168px;
+	height: 296px;
+	position: static;
+}
+
+.item-11 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-73 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 1116px;
+	top: 3264px;
+}
+
+.bermuda-high-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -412px);
+	top: 3522px;
+}
+
+.group-2 {
+	width: 744px;
+	height: 307px;
+	position: static;
+}
+
+.group-43 {
+	width: 168px;
+	height: 299px;
+	position: static;
+}
+
+.roupa-2 {
+	width: 168px;
+	height: 299px;
+	position: static;
+}
+
+.item-7 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-74 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 156px;
+	top: 3585px;
+}
+
+.cal-a-sufgang-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 551px);
+	top: 3846px;
+}
+
+.group-45 {
+	width: 168px;
+	height: 307px;
+	position: static;
+}
+
+.roupa-16 {
+	width: 168px;
+	height: 307px;
+	position: static;
+}
+
+.item-9 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-75 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 346px;
+	top: 3582px;
+}
+
+.puffy-jacket-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 351px);
+	top: 3851px;
+}
+
+.extra-10 {
+	width: 171px;
+	height: 301px;
+	position: static;
+}
+
+.texto {
+	width: 164.93px;
+	height: 42px;
+	position: static;
+}
+
+.puma-blaze {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 729px;
+	top: 3844px;
+	width: 164.93px;
+}
+
+.r-xx-xx9 {
+	color: var(--cinza-1, #222222);
+	text-align: left;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 729px;
+	top: 3867px;
+	width: 73.76px;
+}
+
+.rectangle-76 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 732px;
+	top: 3585px;
+}
+
+.tenis-19 {
+	width: 168px;
+	height: 302px;
+	position: static;
+}
+
+.rectangle-77 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 924px;
+	top: 3264px;
+}
+
+.air-max-tn-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -236px);
+	top: 3528px;
+}
+
+.barra-superior {
+	width: 1440px;
+	height: 95px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.barra-superior2 {
+	background: var(--cinza-1, #222222);
+	width: 1440px;
+	height: 95px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.home2 {
+	position: absolute;
+	inset: 0;
+}
+
+.home3 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: 700 16px/112% 'Montserrat', sans-serif;
+	position: absolute;
+	left: 444px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios {
+	position: absolute;
+	left: 502px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.marcas {
+	position: absolute;
+	inset: 0;
+}
+
+.marcas2 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: 700 16px/112% 'Montserrat', sans-serif;
+	position: absolute;
+	left: 540px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios2 {
+	position: absolute;
+	left: 619px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.roupas3 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: 700 16px/112% 'Montserrat', sans-serif;
+	position: absolute;
+	left: 657px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios3 {
+	position: absolute;
+	left: 734px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.t-nis2 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: 700 16px/112% 'Montserrat', sans-serif;
+	position: absolute;
+	left: 772px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios4 {
+	position: absolute;
+	left: 826px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.acessorios {
+	position: absolute;
+	inset: 0;
+}
+
+.acess-rios {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: 700 16px/112% 'Montserrat', sans-serif;
+	position: absolute;
+	left: 864px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios5 {
+	position: absolute;
+	left: 979px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.icones {
+	position: absolute;
+	inset: 0;
+}
+
+.material-symbols-search {
+	position: absolute;
+	left: 1112px;
+	top: 33px;
+	overflow: visible;
+}
+
+.mdi-user-circle-outline {
+	position: absolute;
+	left: 1160px;
+	top: 33px;
+	overflow: visible;
+}
+
+.mdi-cards-heart-outline {
+	position: absolute;
+	left: 1208px;
+	top: 33px;
+	overflow: visible;
+}
+
+.material-symbols-shopping-cart-outline {
+	position: absolute;
+	left: 1256px;
+	top: 33px;
+	overflow: visible;
+}
+
+.home4 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 444px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios6 {
+	position: absolute;
+	left: 502px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.roupas4 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 564px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios7 {
+	position: absolute;
+	left: 641px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.t-nis3 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 703px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios8 {
+	position: absolute;
+	left: 757px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.acess-rios2 {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 819px;
+	top: 38px;
+}
+
+.material-symbols-arrow-back-ios9 {
+	position: absolute;
+	left: 934px;
+	top: 53px;
+	transform: translate(0px, -12px);
+	overflow: visible;
+}
+
+.material-symbols-search2 {
+	position: absolute;
+	left: 1112px;
+	top: 33px;
+	overflow: visible;
+}
+
+.mdi-user-circle-outline2 {
+	position: absolute;
+	left: 1160px;
+	top: 33px;
+	overflow: visible;
+}
+
+.mdi-cards-heart-outline2 {
+	position: absolute;
+	left: 1208px;
+	top: 33px;
+	overflow: visible;
+}
+
+.material-symbols-shopping-cart-outline2 {
+	position: absolute;
+	left: 1256px;
+	top: 33px;
+	overflow: visible;
+}
+
+.logo-para-vendedor-ou-loja-de-sneakers-cor-neutra-urbano-1-removebg-preview-1 {
+	width: 78px;
+	height: 77px;
+	position: absolute;
+	left: 143px;
+	top: 9px;
+}
+
+.barra-inferior {
+	width: 1440px;
+	height: 95px;
+	position: absolute;
+	left: 0px;
+	top: 3943px;
+}
+
+.barra-inferiro2 {
+	width: 1440px;
+	height: 95px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.group-23 {
+	position: absolute;
+	inset: 0;
+}
+
+.contato {
+	color: var(--primary, #ff33a9);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 156px;
+	top: 10px;
+}
+
+.e-mail-contato-marca-com-br {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 156px;
+	top: 38px;
+}
+
+.whatsapp-55-14-xxxxx-xxxx {
+	color: var(--branco, #ffffff);
+	text-align: left;
+	font: var(--menornegrito-16, 700 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: 156px;
+	top: 66px;
+}
+
+.logo-para-vendedor-ou-loja-de-sneakers-cor-neutra-urbano-1-removebg-preview-2 {
+	width: 117px;
+	height: 113px;
+	position: absolute;
+	left: 125px;
+	top: -3px;
+}
+
+.roupa-5 {
+	position: absolute;
+	inset: 0;
+}
+
+.rectangle-78 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 347px;
+	top: 3264px;
+}
+
+.camiseta-oversized-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 381px);
+	top: 3525px;
+}
+
+.acessorios-4 {
+	position: absolute;
+	inset: 0;
+}
+
+.rectangle-79 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 732px;
+	top: 3264px;
+}
+
+.aim-leon-dore-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -22px);
+	top: 3522px;
+}
+
+.acessorios-3 {
+	position: absolute;
+	inset: 0;
+}
+
+.item-8 {
+	width: 168px;
+	height: 241px;
+	position: static;
+}
+
+.rectangle-710 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 540px;
+	top: 3585px;
+}
+
+.travis-mask-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - 157px);
+	top: 3846px;
+}
+
+.roupa-1 {
+	position: absolute;
+	inset: 0;
+}
+
+.rectangle-711 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 924px;
+	top: 3585px;
+}
+
+.camiseta-palla-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -217px);
+	top: 3846px;
+}
+
+.roupa-19 {
+	position: absolute;
+	inset: 0;
+}
+
+.rectangle-712 {
+	width: 168px;
+	height: 241px;
+	position: absolute;
+	left: 1116px;
+	top: 3576px;
+}
+
+.basic-pack-white-r-xxxx {
+	color: var(--cinza-1, #222222);
+	text-align: center;
+	font: var(--menor-16, 400 16px/120% 'Montserrat', sans-serif);
+	position: absolute;
+	left: calc(50% - -400px);
+	top: 3848px;
+}
